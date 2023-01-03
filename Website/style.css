@@ -1,0 +1,263 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p { 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.back {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.center {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.header {
+    padding: 60px; 
+    text-align: center;
+    background-image: url(Fotos/Slaap\ ritme/pexels-mikhail-nilov-6968268.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+  }
+
+.headersleep {
+    padding: 60px; 
+    text-align: center;
+    background-image: url(Fotos/Slaap\ ritme/pexels-oladimeji-ajegbile-2397363.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    position: relative;
+  }
+
+.headersun {
+    padding: 60px; 
+    text-align: center;
+    background-image: url(Fotos/Zon/pexels-josh-hild-3363426.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    position: relative;
+  }
+
+.headerexercise {
+    padding: 60px; 
+    text-align: center;
+    background-image: url(Fotos/Beweging/pexels-alexy-almond-3756505.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    position: relative;
+  }
+
+.headercaffeine {
+    padding: 60px; 
+    text-align: center;
+    background-image: url(Fotos/Koffie/pexels-chevanon-photography-324028.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    position: relative;
+  }
+
+.headercold {
+    padding: 60px; 
+    text-align: center;
+    background-image: url(Fotos/Koude\ douche/pexels-egor-kamelev-813871.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    position: relative;
+  }
+
+  .headerandrew {
+    padding: 60px; 
+    text-align: center;
+    background-image: url(Fotos/Huberman/2022-12-19\ 12_32_04-huberman\ -\ Google\ Zoeken\ -\ Werk\ -\ Microsoft​\ Edge.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    position: relative;
+  }
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+li {
+    display: inline;
+    float: left;
+  }
+
+li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(0, 132, 255);
+  }
+
+
+
+.footer {
+    display: grid;
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.footerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+  .container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+  }
+  .containerhome {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+  }
+  .homeimage {
+    vertical-align: middle;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+  }
+
+  input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 95%;
+    height: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 50px;
+  }
+  .left {
+    margin-left:25%;
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+    height: 180px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    
+  }
+  .grid0 {
+    grid-column-start: 2;
+  }
+  .grid {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: center;
+
+  }
+  .header{
+    padding: 80px;
+    
+  }
+  .headersleep{
+    padding: 80px;
+    
+  }
+  .headersun{
+    padding: 80px;
+    
+  }
+  .headerexercise{
+    padding: 80px;
+    
+  }
+  .headercold{
+    padding: 80px;
+    
+  }
+  .headerandrew{
+    padding: 80px;
+    
+  }
+  .headercaffeine{
+    padding: 80px;
+    
+  }
+  .containerhome {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center; 
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+  }
+  .container {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
